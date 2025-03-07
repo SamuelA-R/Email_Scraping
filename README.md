@@ -1,5 +1,5 @@
 # Email_Scraping
-Esse código vai extrair dados dos CNPJs via API da Receita Federal.
+Esse código vai extrair dados dos CNPJs via API da ReceitaWS.
 
 # Prerequisites
 Antes de rodar o código, você vai precisar importar as seguintes bibliotecas: requests, json, time e pandas. Você pode instalar as bibliotecas necessárias utilizando o código **`pip install requests, pandas`**.
