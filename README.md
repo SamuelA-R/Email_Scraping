@@ -1,9 +1,13 @@
 # Email_Scraping
-This code will guide you in extracting email information.
-For this code to work, you need to have the Outlook application installed and replace the example information in the code with your own.
+Esse código vai extrair dados dos CNPJs via API da Receita Federal.
 
 # Prerequisites
-Before running the code, you must install the required libraries: pywin32 (for win32com.client) and pandas, while datetime is a built-in library and does not require installation. You can install the necessary dependencies using the command pip install <library_name>.
+Antes de rodar o código, você vai precisar importar as seguintes bibliotecas: requests, json, time e pandas. Você pode instalar as bibliotecas necessárias utilizando o código **`pip install requests, pandas`**.
+
+**Observação**: A biblioteca `json` e `time` já são parte da biblioteca padrão do Python, então você não precisa instalá-las separadamente.
 
 # Comments:
-This project was useful and applied to one of my needs, where I was required to collect data from received emails containing standardized responses from a conducted survey. I hope this can help you as well.
+Esse projeto foi útil em uma de minhas demandas, onde eu tive que verificar se o CNPJ do cliente ainda estava ativo e extrair informações do mesmo. Espero que esse código possa ajudá-lo também!
+
+Meu LinkedIn: [Samuel Alves Ribeiro](https://www.linkedin.com/in/samuel-alves-ribeiro-017960246/)
+
